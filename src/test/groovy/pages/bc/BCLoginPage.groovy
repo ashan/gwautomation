@@ -1,7 +1,6 @@
 package pages.bc
 
-import geb.Page
-import pages.gebextensions.BCBasePage
+import pages.bc.gebextensions.BCBasePage
 
 class BCLoginPage extends BCBasePage{
     static at = {loginButton != null}

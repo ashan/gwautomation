@@ -66,6 +66,15 @@ cucumber {
 	glueDirs = [
 		"classpath:io.jdev.geb.cucumber.steps.groovy.en"
 	]
+
+    // if geb.feature.path given use the value as the feature directory
+    // else default to src/cucumber/features
+    featureDirs = []
+    if(System.getProperty("geb.feature.path")){
+        featureDirs << System.getProperty("geb.feature.path")
+    }else{
+        featureDirs = ["src/cucumber/features"]
+    }
 }
 
 tasks.cucumber {

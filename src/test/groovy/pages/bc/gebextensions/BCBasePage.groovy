@@ -1,4 +1,4 @@
-package pages.gebextensions
+package pages.bc.gebextensions
 
 
 class BCBasePage extends geb.Page{

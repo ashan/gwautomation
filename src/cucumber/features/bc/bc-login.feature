@@ -1,6 +1,3 @@
-# This example demonstrates using the custom steps written in
-# src/cucumber/glue/steps
-
 Feature: Log in to BillingCenter
 
   Scenario: Try to log in to BillingCenter with INVALID credentials
