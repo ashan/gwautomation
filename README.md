@@ -1,11 +1,10 @@
 # Example Geb and Cucmber JVM Project
 
-[![Build Status][build_status]](https://snap-ci.com/geb/geb-example-cucumber-jvm/branch/master)
 
 ### Description
 This is a customization of https://github.com/geb/geb-example-cucumber-jvm.git
 
-## Original description from https://github.com/geb/geb-example-cucumber-jvm.git
+#### Original description from https://github.com/geb/geb-example-cucumber-jvm.git
 This is an example project for using [Geb](http://geb.codehaus.org/ "Geb - Groovy Browser Automation")
 with the [Cucumber-JVM](http://cukes.info/install-cucumber-jvm.html "Cucumber JVM") testing framework.
 
