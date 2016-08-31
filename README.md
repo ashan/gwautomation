@@ -17,7 +17,7 @@ and Gradle will be downloaded for you.
 
 To run the tests, just run `./gradlew -Dgeb.env=<host environment> -Dgeb.feature.path=<feature folder path>cucumber` on *nix or `gradlew.bat cucumber` on Windows.
 
-See the `src/test/resources/GebConfig.groovy` file for how to run the tests with different browsers.
+See the `src/test/resources/GebConfig.groovy` file for how to run the tests with different browsers and to configure different environments.
 See `build.gradle` file for how to use the geb.env system property
 
 
